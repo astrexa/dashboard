@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif !important;
+  /* overflow-x: hidden !important; */
+}
+.sidebar::-webkit-scrollbar {
+  width: 2px !important;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1 !important; /* Tailwind gray-300 */
+  border-radius: 4px;
+}
+
+/* in your global.css */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1; 
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+.disabled {
+  cursor: not-allowed !important;
+}
+.table-card{
+  overflow-x: scroll !important;
+  max-width: 100% !important;
+}
+.table-responsive{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.table{
+  width: auto !important;
+}
